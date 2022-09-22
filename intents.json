@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Services",
+        "Which kind of services you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Menu"
+      ],
+      "responses": [
+        "We do social media Marketing and Help to develop websites and mobile apps.",
+        "Socail Media Marekting and Building Websites and Mobile Apps"
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "How your services price work?",
+        "Do you take money from profit?",
+        "How much social media marketing package cost?",
+        "How much building a website cost?",
+        "Website Cost",
+        "Social Media Markeitng Cost"
+      ],
+      "responses": [
+        "We do one meeting to decide what are the expecations and how much growth a business is expecting in a month. So if you are interested contact us.",
+        "It depends on various factors and customer demands. So if you are interested contact us."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
